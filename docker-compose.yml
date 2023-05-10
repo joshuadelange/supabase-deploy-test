@@ -23,7 +23,7 @@ services:
       interval: 5s
       retries: 3
     ports:
-      - 3000:3000/tcp
+      - 443:443/tcp
     env_file: .env
 
   kong:
